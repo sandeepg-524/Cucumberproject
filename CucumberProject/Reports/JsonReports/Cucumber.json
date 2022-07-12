@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-12T12:48:38.719Z",
+        "line": 2,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993200,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "users enters Username and Password",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.users_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user should land on Home page",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginfeature.feature",
+    "tags": []
+  }
+]
