@@ -20,7 +20,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.step({
-  "name": "users enters Username and Password",
+  "name": "users enters username and password",
   "keyword": "When "
 });
 formatter.match({

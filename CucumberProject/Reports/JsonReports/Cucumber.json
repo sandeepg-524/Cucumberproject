@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-12T12:48:38.719Z",
+        "start_timestamp": "2022-07-13T07:10:10.787Z",
         "line": 2,
         "name": "Test the valid login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1993200,
+              "duration": 997700,
               "status": "skipped"
             },
             "line": 3,
@@ -25,11 +25,10 @@
           },
           {
             "result": {
-              "duration": 997000,
               "status": "skipped"
             },
             "line": 4,
-            "name": "users enters Username and Password",
+            "name": "users enters username and password",
             "match": {
               "location": "com.stepDefinition.Loginsteps.users_enters_username_and_password()"
             },
@@ -37,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 997100,
+              "duration": 975400,
               "status": "skipped"
             },
             "line": 5,
