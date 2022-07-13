@@ -3,20 +3,20 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-13T07:10:10.787Z",
-        "line": 2,
-        "name": "Test the valid login",
+        "start_timestamp": "2022-07-13T09:32:06.383Z",
+        "line": 3,
+        "name": "Test the valid login using DataTable",
         "description": "",
-        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login",
+        "id": "test-the-login-functionality-of-orangehrm-using-datatable;test-the-valid-login-using-datatable",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 997700,
-              "status": "skipped"
+              "duration": 15655181000,
+              "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "user is on login page",
             "match": {
               "location": "com.stepDefinition.Loginsteps.user_is_on_login_page()"
@@ -25,21 +25,30 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 97133500,
+              "status": "passed"
             },
-            "line": 4,
-            "name": "users enters username and password",
+            "line": 5,
+            "name": "users enters credentials using DataTable",
             "match": {
-              "location": "com.stepDefinition.Loginsteps.users_enters_username_and_password()"
+              "location": "com.stepDefinition.Loginsteps.users_enters_credentials_using_DataTable(io.cucumber.datatable.DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "admin123"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 975400,
-              "status": "skipped"
+              "duration": 1780714100,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "Click on Login Button",
             "match": {
               "location": "com.stepDefinition.Loginsteps.click_on_login_button()"
@@ -48,9 +57,159 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1001111200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should land on Home page",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM using DataTable",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm-using-datatable",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DataTable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-13T09:32:24.984Z",
+        "line": 11,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13680524900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77420600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users enters \u003cusername\u003e and admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepDefinition.Loginsteps.users_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1602411700,
+              "status": "passed"
             },
             "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067367200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should land on Home page",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-13T09:32:41.426Z",
+        "line": 12,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12550684900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77326300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users enters \u003cusername\u003e and admin1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 13
+                },
+                {
+                  "val": "admin1234",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepDefinition.Loginsteps.users_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1524679800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "com.stepDefinition.Loginsteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126473700,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "user should land on Home page",
             "match": {
               "location": "com.stepDefinition.Loginsteps.user_should_land_on_home_page()"
