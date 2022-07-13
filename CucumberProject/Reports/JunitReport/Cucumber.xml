@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="50.552">
-    <testcase classname="Test the login functionality of OrangeHRM using DataTable" name="Test the valid login using DataTable" time="18.594">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="49.611">
+    <testcase classname="Test the login functionality of OrangeHRM using DataTable" name="Test the valid login using DataTable" time="18.383">
         <system-out><![CDATA[Given user is on login page.................................................passed
 When users enters credentials using DataTable...............................passed
 And Click on Login Button...................................................passed
 Then user should land on Home page..........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="16.439">
+    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login" time="16.395">
         <system-out><![CDATA[Given user is on login page.................................................passed
 When users enters <username> and admin123...................................passed
 And Click on Login Button...................................................passed
 Then user should land on Home page..........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login 2" time="15.283">
+    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login 2" time="14.632">
         <system-out><![CDATA[Given user is on login page.................................................passed
 When users enters <username> and admin1234..................................passed
 And Click on Login Button...................................................passed

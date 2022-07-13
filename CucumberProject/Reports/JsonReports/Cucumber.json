@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-13T09:32:06.383Z",
+        "start_timestamp": "2022-07-13T09:43:02.701Z",
         "line": 3,
         "name": "Test the valid login using DataTable",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15655181000,
+              "duration": 15374048900,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 97133500,
+              "duration": 70813900,
               "status": "passed"
             },
             "line": 5,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1780714100,
+              "duration": 1963986800,
               "status": "passed"
             },
             "line": 7,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 1001111200,
+              "duration": 909799600,
               "status": "passed"
             },
             "line": 8,
@@ -81,7 +81,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-13T09:32:24.984Z",
+        "start_timestamp": "2022-07-13T09:43:21.089Z",
         "line": 11,
         "name": "Test the valid login",
         "description": "",
@@ -91,7 +91,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13680524900,
+              "duration": 13924901100,
               "status": "passed"
             },
             "line": 4,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 77420600,
+              "duration": 69459400,
               "status": "passed"
             },
             "line": 5,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 1602411700,
+              "duration": 1504916800,
               "status": "passed"
             },
             "line": 6,
@@ -137,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 1067367200,
+              "duration": 887664900,
               "status": "passed"
             },
             "line": 7,
@@ -150,7 +150,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-13T09:32:41.426Z",
+        "start_timestamp": "2022-07-13T09:43:37.486Z",
         "line": 12,
         "name": "Test the valid login",
         "description": "",
@@ -160,7 +160,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12550684900,
+              "duration": 11898439300,
               "status": "passed"
             },
             "line": 4,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 77326300,
+              "duration": 74800000,
               "status": "passed"
             },
             "line": 5,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 1524679800,
+              "duration": 1524999900,
               "status": "passed"
             },
             "line": 6,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 1126473700,
+              "duration": 1131259300,
               "status": "passed"
             },
             "line": 7,
